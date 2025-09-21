@@ -1,12 +1,12 @@
-//your JS code here. If required.
 for (let i = 1; i <= 20; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-    alert("FizzBuzz");
+    console.log("FizzBuzz");
   } else if (i % 3 === 0) {
-    alert("Fizz");
+    console.log("Fizz");
   } else if (i % 5 === 0) {
-    alert("Buzz");
+    console.log("Buzz");
   } else {
-    alert(i);
+    console.log(i);
   }
+} 
 } 
